@@ -1,13 +1,8 @@
-[![npm version](https://badge.fury.io/js/vue-notification.svg)](https://badge.fury.io/js/vue-notification)
-[![npm](https://img.shields.io/npm/dm/vue-notification.svg)](https://www.npmjs.com/package/vue-notification)
-
 ### Vue.js notifications
 
 Demo: To be added.
 
-<p align="center">
-  <img src="https://media.giphy.com/media/xUn3C6FmbGmszMem64/giphy.gif">
-</p>
+
 
 ### Install
 
@@ -49,25 +44,16 @@ this.$hnotify.error({
 });
 ```
 
-### Props
-
-All keys are optional.
-
-| Name           | Type    | Default      | Description |
-| ---            | ---     | ---          | ---         |
-| text           | String  | ''           | Text of the notification holder |
-| root           | String  | ''           | Mode of the notification holder, if should be 'root' or '' |
-
 ### API
 
 ```javascript
-  this.$notify({
+  this.$hnotify({
     // (optional)
-    // Mode of the mobile size view. value should be 'root' or ''
-    root: 'foo',
+    // Mode of the mobile size view. value should be 'root' or '', when your html tag's font-size is 16 , should be 'root' .Other cases it should be ''.
+    root: '',
 
     // Content
-    text: 'This is  content '
+    text: 'This is content '
   })
 ```
 
