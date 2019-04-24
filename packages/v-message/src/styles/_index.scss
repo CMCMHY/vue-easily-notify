@@ -1,0 +1,15 @@
+@import "~normalize.css/normalize.css";
+$base-font: Verdana, Helvetica, Arial, sans-serif,  sans-serif;
+
+$screen-desk-contentos-breakpoint: 992px;
+
+$screen-touch-contentos-breakpoint: 768px;
+
+@function px2rem($px) {
+   $rem: 24px; // 37.5px 32px
+   @return ($px/$rem)+rem;
+}
+
+*{
+   box-sizing: border-box;
+}
