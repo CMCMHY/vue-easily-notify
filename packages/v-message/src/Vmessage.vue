@@ -103,16 +103,12 @@
         }
     }
     .fade-enter-active, .fade-leave-active {
-        transition: all 500ms linear;
+        transition: all 100ms linear;
     }
 
-    .fade-enter {
-        top: -60px;
-    }
-
-    .fade-leave-to {
-        top: -60px;
-    }
+    .fade-enter,.fade-leave-to {
+        transform: translate(-50%, -40px);
+     }
     @media screen and (max-width: 767.9px) {
         .line {
             width: px2rem(480px);
