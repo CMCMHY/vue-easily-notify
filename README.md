@@ -1,6 +1,7 @@
-### Vue.js notifications
+### Vue.js notifications, automatically adapt PC and mobile.
 
 Demo: To be added.
+Github: To be added.
 
 
 
@@ -48,32 +49,12 @@ this.$hnotify.error({
 
 ```javascript
   this.$hnotify({
-    // (optional)
-    // Mode of the mobile size view. value should be 'root' or '', when your html tag's font-size is 16 , should be 'root' .Other cases it should be ''.
+    // root: Optional,default value is '',
+    // Mode of the mobile size view. Based on the root tag's font-size,
+    // When your html tag's font-size is 16 , it should be 'root',
+    // Other cases it should be ''.
     root: '',
-
-    // Content
+    // text: Content of notify action.
     text: 'This is content '
   })
-```
-
-
-
-### Development
-
-```bash
-To run an example:
-
-# Build main library
-
-cd vue-easily-notify
-npm install
-npm run lib
-
-# Build and run demo
-
-cd demo
-npm install
-npm run dev
-
 ```

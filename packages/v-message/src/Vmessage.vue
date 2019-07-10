@@ -51,14 +51,13 @@
     @import "./styles/_index";
     .line {
         position: fixed;
-        padding: 0 20px;
+        padding: 15px 20px;
         top: 30px;
         left: 50%;
         transform: translate(-50%, 0);
-        min-height: 54px;
-        line-height: 54px;
         text-align: left;
         font-size: 14px;
+        line-height: 1.5;
         color: #333333;
         background: #FFFFFF;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.20);

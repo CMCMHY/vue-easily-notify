@@ -1,6 +1,6 @@
 import Message from './src/Vmessage'
 const vueEasilyNotify = {
-    duration: 5000,
+    duration: 50000,
     animateTime: 100,
     install(Vue) {
         if (typeof window !== 'undefined' && window.Vue) {
@@ -11,7 +11,7 @@ const vueEasilyNotify = {
         function msg(type, data, callBack) {
             let msg, mode, duration = vueEasilyNotify.duration;
             msg = data['text'];
-            mode = data['mode']  || ''
+            mode = data['mode']  || '';
             let VueMessage = Vue.extend({
                 render(h) {
                     let props = {
