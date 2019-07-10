@@ -27,7 +27,7 @@
                 // this.$hnotify.error({text:'error', mode:'root'}, function () {
                 //     console.log(3333)
                 // })
-                this.$hnotify.warning({text:'warning'}, function () {
+                this.$hnotify.warning({text:'移动端适配方案是根字号大小的则传mode:root ,其他情况mode不传或为空,移动端适配方案是根字号大小的则传mode:root ,其他情况mode不传或为空,移动端适配方案是根字号大小的则传mode:root ,其他情况mode不传或为空,移动端适配方案是根字号大小的则传mode:root ,其他情况mode不传或为空'}, function () {
                     console.log(4444)
                 })
             }

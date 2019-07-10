@@ -1,7 +1,7 @@
 {
   "name": "vue-easily-notify",
-  "version": "0.0.51",
-  "description": "基于 Vue 的通知组件",
+  "version": "0.0.53",
+  "description": "An easily  notify Component Whitch adapts mobile automatically.",
   "main": "lib/vueeasilynotify.umd.min.js",
   "keyword": "vuenotify",
   "private": false,

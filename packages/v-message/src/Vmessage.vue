@@ -42,21 +42,12 @@
           }
           },
         created() {},
-        mounted() {
-            //this.rootMode = this.checkRem();
-        },
-        methods: {
-            // checkRem() {
-            //     let docEl = document.documentElement;
-            //     let style = window.getComputedStyle(docEl, null).getPropertyValue('font-size');
-            //     let fontSize = parseFloat(style);
-            //     return fontSize > 16;
-            // }
-        }
+        mounted() {},
+        methods: {}
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     @import "./styles/_index";
     .line {
         position: fixed;
@@ -64,7 +55,7 @@
         top: 30px;
         left: 50%;
         transform: translate(-50%, 0);
-        height: 54px;
+        min-height: 54px;
         line-height: 54px;
         text-align: left;
         font-size: 14px;
