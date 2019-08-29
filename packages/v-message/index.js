@@ -1,6 +1,6 @@
 import Message from './src/Vmessage'
 const vueEasilyNotify = {
-    duration: 5000,
+    duration: 3000,
     animateTime: 100,
     install(Vue) {
         if (typeof window !== 'undefined' && window.Vue) {
