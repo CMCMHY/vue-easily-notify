@@ -58,3 +58,4 @@ this.$hnotify.error({
     text: 'This is content '
   })
 ```
+
